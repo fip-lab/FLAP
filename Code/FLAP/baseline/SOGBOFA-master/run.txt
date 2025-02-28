@@ -1,0 +1,13 @@
+run-data		存放运行所需的temp文件
+result 		存放运行结果
+run-sog-2018.sh	运行2018领域脚本
+Domains		直接存储领域文件
+
+
+./run_server Domains 2323 100 1 10000 1.5
+             路径/端口/round/random/maxtime(s)/steptime
+          
+
+./run_sogbofa traffic_inst_mdp__01 2323
+
+./run-sog-2018.sh

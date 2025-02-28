@@ -1,0 +1,2210 @@
+RDDL client initializedRDDL client initialized
+
+begin new session
+begin new session
+get instance name :elevators_inst_mdp__02
+get instance name :elevators_inst_mdp__02
+file name: elevators_inst_mdp__02.rddlfile name: elevators_inst_mdp__02.rddl
+
+/mnt/hgfs/fwp/baseline-code/SOGBOFA-master/run-data/27006
+/mnt/hgfs/fwp/baseline-code/SOGBOFA-master/run-data/30283
+get instance name :elevators_inst_mdp__02get instance name :elevators_inst_mdp__02
+
+Finished RDD2Graph!
+
+*********************************************************
+>>> INITIAL POLICY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*********************************************************
+Finished RDD2Graph!
+
+*********************************************************
+>>> INITIAL POLICY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*********************************************************
+set seerch tree parameter:
+set seerch tree parameter:
+tag：0;;******************** FirstStep ********************
+tag：0;;******************** FirstStep ********************
+Rebuild constraints system!!!!
+Rebuild constraints system!!!!
+40
+40
+Actions: [open-door-going-up($e0);]
+reward:0.0
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.1224306788466228
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.125
+tag：1;;tag：1;;6
+5
+Actions: [move-current-dir($e1);, open-door-going-up($e0);]
+reward:0.0
+Actions: [close-door($e0);, move-current-dir($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.10096937141412322
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.01721285797916214
+tag：2;;tag：2;;8
+8
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.9348098770073022
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.0345143893673354
+tag：3;;tag：3;;8
+8
+Actions: [open-door-going-up($e0);, open-door-going-down($e1);]
+reward:-1.0
+Actions: [open-door-going-up($e0);, open-door-going-down($e1);]
+reward:-1.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.3574405341553255
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.4752870314836206
+tag：4;;tag：4;;5
+7
+Actions: [close-door($e1);, open-door-going-down($e0);]Actions: [close-door($e1);, open-door-going-down($e0);]
+
+reward:-1.0reward:-1.0
+
+^^^^^^^^^^^^^^stare time200
+^^^^^^^^^^^^^^stare time200%%%%%%%%%%%%state fitness =-1.1545756487267735
+
+%%%%%%%%%%%%state fitness =-1.0897820982998785
+tag：5;;tag：5;;8
+8
+Actions: [move-current-dir($e1);, open-door-going-up($e0);]
+Actions: [close-door($e0);, move-current-dir($e1);]reward:-0.75
+
+reward:-0.75
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.48329008181089517
+%%%%%%%%%%%%state fitness =-0.20833780994558793
+tag：6;;tag：6;;7
+7
+Actions: [close-door($e0);, open-door-going-down($e1);]Actions: [close-door($e0);, move-current-dir($e1);]
+
+reward:-0.75
+reward:-0.75
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.821778093072982%%%%%%%%%%%%state fitness =-0.8109752292520006
+
+tag：7;;tag：7;;8
+9
+Actions: [move-current-dir($e0);, open-door-going-up($e1);]Actions: [close-door($e1);, move-current-dir($e0);]
+
+reward:-1.0reward:-1.0
+
+^^^^^^^^^^^^^^stare time200
+^^^^^^^^^^^^^^stare time200%%%%%%%%%%%%state fitness =-0.9591694283890823
+
+%%%%%%%%%%%%state fitness =-0.9640000679169531
+tag：8;;tag：8;;7
+7
+Actions: [move-current-dir($e1);, open-door-going-up($e0);]
+reward:-1.0
+Actions: [close-door($e1);, open-door-going-up($e0);]
+reward:-1.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.2083791390821996
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.9020535798479296
+tag：9;;tag：9;;9
+9
+Actions: [close-door($e0);, open-door-going-down($e1);]
+reward:-1.0
+Actions: [close-door($e0);, close-door($e1);]
+reward:-1.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.129610721072352
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.9412048742952495
+tag：10;;tag：10;;78
+
+Actions: [close-door($e1);, move-current-dir($e0);]Actions: [close-door($e1);, move-current-dir($e0);]
+
+reward:-0.75reward:-0.75
+
+^^^^^^^^^^^^^^stare time200
+^^^^^^^^^^^^^^stare time200%%%%%%%%%%%%state fitness =-0.24055467875099323
+
+%%%%%%%%%%%%state fitness =-0.22698905531302813
+tag：11;;tag：11;;8
+8
+Actions: [open-door-going-down($e0);, open-door-going-down($e1);]
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]reward:-0.75
+
+reward:-0.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.1175780375440462
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.1463207367761161
+tag：12;;tag：12;;8
+8
+Actions: [close-door($e0);]
+Actions: [close-door($e0);, close-door($e1);]reward:0.0
+
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.03804922288588186
+%%%%%%%%%%%%state fitness =-0.024740253823554492
+tag：13;;tag：13;;8
+8
+Actions: [close-door($e1);]
+reward:0.0Actions: [move-current-dir($e0);, open-door-going-down($e1);]
+
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.6665257769730276
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.14247402985807647
+tag：14;;tag：14;;76
+
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]
+reward:-1.0
+Actions: [close-door($e1);, open-door-going-down($e0);]
+reward:-1.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.7869063573746269
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.839425825158001
+tag：15;;tag：15;;87
+
+Actions: [close-door($e0);, open-door-going-up($e1);]Actions: [close-door($e0);, open-door-going-down($e1);]
+
+reward:-1.0reward:-1.0
+
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.9332073100486931
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.9596560362753389
+tag：16;;tag：16;;8
+9
+Actions: [move-current-dir($e0);, open-door-going-up($e1);]
+reward:-0.75
+Actions: [move-current-dir($e0);, open-door-going-up($e1);]
+reward:-0.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.1534576206228484
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.3988015939642179
+tag：17;;tag：17;;8
+8
+Actions: [close-door($e0);, close-door($e1);]
+reward:-0.75
+Actions: [close-door($e1);, open-door-going-down($e0);]
+reward:-0.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.16965069777102879
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.059633534741364284
+tag：18;;tag：18;;7
+8
+Actions: [move-current-dir($e1);, open-door-going-up($e0);]
+Actions: [move-current-dir($e0);, move-current-dir($e1);]reward:0.0
+
+reward:0.0
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.14047560905916673%%%%%%%%%%%%state fitness =-0.07826541464300492
+
+tag：19;;tag：19;;89
+
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+Actions: [close-door($e0);, open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.1021828736333896
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.09084144717281843
+tag：20;;tag：20;;88
+
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]
+reward:0.0
+Actions: [close-door($e0);, open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.07091777470140187
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.05611432964510718
+tag：21;;tag：21;;8
+8
+Actions: [close-door($e0);, open-door-going-up($e1);]
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]reward:0.0
+
+reward:0.0
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.056542966594336115%%%%%%%%%%%%state fitness =-0.024270626294496403
+
+tag：22;;tag：22;;8
+8
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+Actions: [close-door($e0);, open-door-going-up($e1);]reward:0.0
+
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.0370391524765765^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.9876332769361458
+tag：23;;tag：23;;7
+8
+Actions: [close-door($e0);, open-door-going-down($e1);]
+Actions: [open-door-going-down($e0);, open-door-going-down($e1);]reward:-1.0
+
+reward:-1.0
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.845773958139485%%%%%%%%%%%%state fitness =-1.3040599494944742
+
+tag：24;;tag：24;;9
+8
+Actions: [close-door($e1);, move-current-dir($e0);]
+reward:-1.0
+Actions: [close-door($e1);, open-door-going-up($e0);]
+reward:-1.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.9713118368701006
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.0916328524490597
+tag：25;;tag：25;;7
+8
+Actions: [move-current-dir($e1);, open-door-going-up($e0);]
+reward:-0.75
+Actions: [move-current-dir($e1);, open-door-going-down($e0);]
+reward:-0.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.2896757425693377
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.8177928913592193
+tag：26;;tag：26;;8
+9
+Actions: [open-door-going-up($e0);, open-door-going-down($e1);]
+reward:-1.75
+Actions: [close-door($e0);, move-current-dir($e1);]
+reward:-1.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.0102571292019533
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.0094056789304056
+tag：27;;tag：27;;7
+7
+Actions: [close-door($e0);, close-door($e1);]
+Actions: [close-door($e0);, open-door-going-up($e1);]reward:-1.0
+
+reward:-1.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.9147928033650399
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.9359950720551835
+tag：28;;tag：28;;9
+8
+RDDL client initializedRDDL client initialized
+
+begin new sessionbegin new session
+
+get instance name :elevators_inst_mdp__02
+file name: elevators_inst_mdp__02.rddl
+/mnt/hgfs/fwp/baseline-code/SOGBOFA-master/run-data/22385
+get instance name :elevators_inst_mdp__02
+file name: elevators_inst_mdp__02.rddl
+/mnt/hgfs/fwp/baseline-code/SOGBOFA-master/run-data/32650
+get instance name :elevators_inst_mdp__02get instance name :elevators_inst_mdp__02
+
+
+
+Exception: java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA75
+Exception: java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA81
+java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA75java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA81
+
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)	at java.lang.Class.forName0(Native Method)
+
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)	at java.lang.Class.forName(Class.java:264)
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:452)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:452)
+RDDL client initialized
+RDDL client initializedbegin new session
+
+begin new session
+get instance name :elevators_inst_mdp__04get instance name :elevators_inst_mdp__04
+
+file name: elevators_inst_mdp__04.rddlfile name: elevators_inst_mdp__04.rddl
+
+/mnt/hgfs/fwp/baseline-code/SOGBOFA-master/run-data/22385/mnt/hgfs/fwp/baseline-code/SOGBOFA-master/run-data/32650
+
+get instance name :elevators_inst_mdp__04
+get instance name :elevators_inst_mdp__04
+
+Exception: java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA97
+
+Exception: java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA86
+java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA97
+java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA86	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+
+	at java.lang.Class.forName0(Native Method)	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName(Class.java:264)
+	at java.lang.Class.forName0(Native Method)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:452)
+	at java.lang.Class.forName(Class.java:264)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:452)
+RDDL client initialized
+RDDL client initialized
+begin new session
+begin new session
+get instance name :elevators_inst_mdp__06
+get instance name :elevators_inst_mdp__06
+file name: elevators_inst_mdp__06.rddl
+/mnt/hgfs/fwp/baseline-code/SOGBOFA-master/run-data/22385
+file name: elevators_inst_mdp__06.rddl
+/mnt/hgfs/fwp/baseline-code/SOGBOFA-master/run-data/32650
+get instance name :elevators_inst_mdp__06
+get instance name :elevators_inst_mdp__06
+
+
+Exception: java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA56Exception: java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA60
+
+java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA56
+java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA60	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)	at java.lang.Class.forName0(Native Method)
+
+	at java.lang.Class.forName0(Native Method)	at java.lang.Class.forName(Class.java:264)
+
+	at java.lang.Class.forName(Class.java:264)
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:452)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:452)
+
+RDDL client initialized
+begin new session
+RDDL client initialized
+begin new session
+java.net.SocketException: Connection resetjava.net.SocketException: Connection reset
+
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+
+	at rddl.competition.Server.readOneMessage(Server.java:748)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:441)
+
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+
+Exception: java.lang.NullPointerException
+	at rddl.competition.Server.readOneMessage(Server.java:748)
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:441)
+
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at rddl.competition.SimClientSOG.processXMLSessionInit(SimClientSOG.java:617)
+Exception: java.lang.NullPointerException
+
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:443)	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+
+	at rddl.competition.SimClientSOG.processXMLSessionInit(SimClientSOG.java:617)
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:443)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerExceptionjava.lang.NullPointerException
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerExceptionjava.lang.NullPointerException
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerExceptionjava.lang.NullPointerException
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerExceptionjava.lang.NullPointerException
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerExceptionjava.lang.NullPointerException
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerExceptionjava.lang.NullPointerException
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerExceptionjava.lang.NullPointerException
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerExceptionjava.lang.NullPointerException
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerExceptionjava.lang.NullPointerException
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerExceptionjava.lang.NullPointerException
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerExceptionjava.lang.NullPointerException
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerExceptionjava.lang.NullPointerException
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerExceptionjava.lang.NullPointerException
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+RDDL client initializedRDDL client initialized
+
+begin new sessionbegin new session
+
+get instance name :elevators_inst_mdp__02
+file name: elevators_inst_mdp__02.rddl
+/mnt/hgfs/fwp/baseline-code/SOGBOFA-master/run-data/22385
+get instance name :elevators_inst_mdp__02
+file name: elevators_inst_mdp__02.rddl
+/mnt/hgfs/fwp/baseline-code/SOGBOFA-master/run-data/32650
+get instance name :elevators_inst_mdp__02get instance name :elevators_inst_mdp__02
+
+
+Exception: java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA_13
+
+Exception: java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA_68java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA_13
+
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA_68
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)	at java.lang.Class.forName0(Native Method)
+
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)	at java.lang.Class.forName(Class.java:264)
+
+	at java.lang.Class.forName0(Native Method)
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:452)	at java.lang.Class.forName(Class.java:264)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:452)
+RDDL client initialized
+RDDL client initialized
+begin new sessionbegin new session
+
+java.net.SocketException: Connection resetjava.net.SocketException: Connection reset
+
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+
+	at rddl.competition.Server.readOneMessage(Server.java:748)	at rddl.competition.Server.readOneMessage(Server.java:748)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:441)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:441)
+
+
+Exception: java.lang.NullPointerException
+
+Exception: java.lang.NullPointerExceptionjava.lang.NullPointerException
+
+java.lang.NullPointerException
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+
+	at rddl.competition.SimClientSOG.processXMLSessionInit(SimClientSOG.java:617)
+	at rddl.competition.SimClientSOG.processXMLSessionInit(SimClientSOG.java:617)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:443)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:443)
+Exception: java.lang.NullPointerException
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerExceptionjava.lang.NullPointerException
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)java.lang.NullPointerException
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerExceptionjava.lang.NullPointerException
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+RDDL client initializedRDDL client initialized
+
+begin new session
+begin new session
+get instance name :elevators_inst_mdp__02
+file name: elevators_inst_mdp__02.rddl
+/mnt/hgfs/fwp/baseline-code/SOGBOFA-master/run-data/32650
+get instance name :elevators_inst_mdp__02
+
+Exception: java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA_69
+java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA_69
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:452)
+RDDL client initialized
+begin new session
+java.net.SocketException: Connection resetjava.net.SocketException: Connection reset
+
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+
+	at rddl.competition.Server.readOneMessage(Server.java:748)	at rddl.competition.Server.readOneMessage(Server.java:748)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:441)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:441)
+
+
+Exception: java.lang.NullPointerException
+
+java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)java.lang.NullPointerException
+
+	at rddl.competition.SimClientSOG.processXMLSessionInit(SimClientSOG.java:617)	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:443)	at rddl.competition.SimClientSOG.processXMLSessionInit(SimClientSOG.java:617)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:443)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+RDDL client initializedRDDL client initialized
+
+begin new session
+begin new session
+get instance name :elevators_inst_mdp__02
+file name: elevators_inst_mdp__02.rddl
+/mnt/hgfs/fwp/baseline-code/SOGBOFA-master/run-data/14194
+get instance name :elevators_inst_mdp__02
+
+Exception: java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA_81
+java.lang.ClassNotFoundException: rddl.policy.L_C_SOGBOFA_81
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:452)
+RDDL client initialized
+begin new session
+java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+
+	at rddl.competition.Server.readOneMessage(Server.java:748)	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:441)	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+
+	at rddl.competition.Server.readOneMessage(Server.java:748)
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:441)
+
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)Exception: java.lang.NullPointerException
+
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.processXMLSessionInit(SimClientSOG.java:617)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:443)	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+
+	at rddl.competition.SimClientSOG.processXMLSessionInit(SimClientSOG.java:617)
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:443)
+Exception: java.lang.NullPointerException
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerExceptionjava.lang.NullPointerException
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:525)
+RDDL client initializedRDDL client initialized
+
+begin new session
+begin new session
+get instance name :elevators_inst_mdp__02
+file name: elevators_inst_mdp__02.rddlget instance name :elevators_inst_mdp__02
+
+/mnt/hgfs/fwp/baseline-code/SOGBOFA-master/run-data/6539
+file name: elevators_inst_mdp__02.rddl
+/mnt/hgfs/fwp/baseline-code/SOGBOFA-master/run-data/31412
+get instance name :elevators_inst_mdp__02get instance name :elevators_inst_mdp__02
+
+Finished RDD2Graph!Finished RDD2Graph!
+
+
+*********************************************************
+
+*********************************************************>>> INITIAL POLICY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+*********************************************************>>> INITIAL POLICY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+*********************************************************
+set seerch tree parameter:set seerch tree parameter:
+
+tag：0;;******************** FirstStep ********************
+tag：0;;******************** FirstStep ********************
+Rebuild constraints system!!!!
+Rebuild constraints system!!!!
+40
+40
+Actions: [open-door-going-up($e0);]
+reward:0.0
+Actions: [open-door-going-up($e0);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.02560903885101316
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.02905288345913346
+tag：1;;tag：1;;6
+6
+Actions: [move-current-dir($e1);, open-door-going-down($e0);]
+reward:0.0
+Actions: [close-door($e0);, move-current-dir($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-3.1636289639398285E-4
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.03244240556290611
+tag：2;;tag：2;;7
+7
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.1340205002756191%%%%%%%%%%%%state fitness =-0.038614416622561626
+
+tag：3;;tag：3;;7
+8
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]
+reward:0.0
+Actions: [close-door($e0);, open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.08905820719008328
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.09681978150912603
+tag：4;;tag：4;;7
+8
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+Actions: [close-door($e0);, open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.07950265600643297
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.0535989380046102
+tag：5;;tag：5;;7
+6
+Actions: [open-door-going-down($e0);]
+reward:0.0
+Actions: [open-door-going-up($e0);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.07764631470015908
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.07375556890390954
+tag：6;;tag：6;;7
+8
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.11102974259453804
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.08443112133543564
+tag：7;;tag：7;;7
+8
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.11013471936287844
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.08942185772655334
+tag：8;;tag：8;;68
+
+Actions: [open-door-going-down($e0);]
+reward:0.0
+Actions: [open-door-going-down($e0);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.06608176643415348
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.09626698666589206
+tag：9;;tag：9;;7
+8
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+
+reward:0.0reward:0.0
+
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.12031379111227986
+%%%%%%%%%%%%state fitness =-0.08678467267787966
+tag：10;;tag：10;;8
+9
+Actions: [close-door($e0);, open-door-going-up($e1);]
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]reward:0.0
+
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.046888861856296316
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.06393273547694357
+tag：11;;tag：11;;7
+7
+Actions: [open-door-going-up($e1);]
+reward:0.0
+Actions: [open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.06858317231858228
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.09642294636062995
+tag：12;;tag：12;;6
+8
+Actions: [open-door-going-up($e0);]Actions: [close-door($e0);, open-door-going-up($e1);]
+
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.08747014204218467
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.1217251399185338
+tag：13;;tag：13;;8
+7
+Actions: [open-door-going-down($e0);]Actions: [move-current-dir($e0);, open-door-going-up($e1);]
+
+reward:0.0reward:0.0
+
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.08316019478021897%%%%%%%%%%%%state fitness =-0.10139346030755363
+
+tag：14;;tag：14;;6
+6
+Actions: [close-door($e0);]Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+
+reward:0.0reward:0.0
+
+^^^^^^^^^^^^^^stare time200
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.12108910119270504%%%%%%%%%%%%state fitness =-0.05991761244457503
+
+tag：15;;tag：15;;8
+9
+Actions: [move-current-dir($e0);, open-door-going-up($e1);]
+reward:0.0
+Actions: [close-door($e0);, open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.992716064267312
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.11084398859489569
+tag：16;;tag：16;;8
+8
+Actions: [close-door($e0);, open-door-going-down($e1);]
+reward:-1.0
+Actions: [open-door-going-down($e0);, open-door-going-down($e1);]
+reward:-1.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.6050752984704997
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.2135225720996259
+tag：17;;tag：17;;8
+8
+Actions: [close-door($e0);, close-door($e1);]
+Actions: [close-door($e0);, close-door($e1);]
+reward:-1.0reward:-1.0
+
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-2.556099871726338^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-1.143763267578328
+tag：18;;tag：18;;6
+8
+Actions: [open-door-going-down($e0);, open-door-going-down($e1);]
+reward:-2.75
+Actions: [move-current-dir($e0);, open-door-going-down($e1);]
+reward:-2.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-2.222700385015841
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-2.452379554497905
+tag：19;;tag：19;;88
+
+Actions: [close-door($e1);, open-door-going-up($e0);]
+Actions: [close-door($e1);, open-door-going-up($e0);]reward:-2.75
+
+reward:-2.75
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-1.9476156519389833%%%%%%%%%%%%state fitness =-1.882912434291323
+
+tag：20;;tag：20;;88
+
+Actions: [close-door($e0);, move-current-dir($e1);]Actions: [close-door($e0);, move-current-dir($e1);]
+
+reward:-1.75reward:-1.75
+
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-1.1485974684071345%%%%%%%%%%%%state fitness =-1.1229203163859962
+
+tag：21;;tag：21;;7
+8
+Actions: [move-current-dir($e0);, move-current-dir($e1);]
+reward:-1.75Actions: [close-door($e1);, move-current-dir($e0);]
+
+reward:-1.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.0185513084946212
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.9291005291005291
+tag：22;;tag：22;;7
+9
+Actions: [move-current-dir($e1);, open-door-going-up($e0);]
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]reward:-1.0
+
+reward:-1.0
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-1.412521403435142%%%%%%%%%%%%state fitness =-1.3874808275364434
+
+tag：23;;tag：23;;6
+7
+Actions: [close-door($e0);, close-door($e1);]Actions: [close-door($e0);, open-door-going-down($e1);]
+
+reward:-1.0
+reward:-1.0
+^^^^^^^^^^^^^^stare time200
+^^^^^^^^^^^^^^stare time200%%%%%%%%%%%%state fitness =-0.9810884855497413
+
+%%%%%%%%%%%%state fitness =-1.1457144394094632
+tag：24;;tag：24;;9
+9
+Actions: [move-current-dir($e0);, open-door-going-down($e1);]
+Actions: [move-current-dir($e0);, open-door-going-up($e1);]reward:-0.75
+
+reward:-0.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.2788524713497262
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.05872045004029607
+tag：25;;tag：25;;8
+8
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]Actions: [open-door-going-up($e1);, open-door-going-down($e0);]
+
+reward:-0.75reward:-0.75
+
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.07743525299236002
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.054293486524331046
+tag：26;;tag：26;;9
+9
+Actions: [close-door($e0);, close-door($e1);]Actions: [close-door($e1);, open-door-going-up($e0);]
+
+reward:0.0reward:0.0
+
+^^^^^^^^^^^^^^stare time200
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.11006496572765186
+%%%%%%%%%%%%state fitness =-0.08438533825322828
+tag：27;;tag：27;;8
+9
+Actions: [move-current-dir($e1);, open-door-going-up($e0);]
+reward:0.0
+Actions: [move-current-dir($e1);, open-door-going-up($e0);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.05422116516198808
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.1484357588442189
+tag：28;;tag：28;;8
+7
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.04758464235803266
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.06964169102938964
+tag：29;;tag：29;;7
+9
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]
+reward:0.0
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.09059974489341796
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.07640386318870311
+tag：30;;tag：30;;7
+8
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]Actions: [close-door($e0);, open-door-going-up($e1);]
+
+reward:0.0reward:0.0
+
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.9469868463776676
+%%%%%%%%%%%%state fitness =-0.8857381700698805
+tag：31;;tag：31;;7
+8
+Actions: [open-door-going-up($e0);, open-door-going-down($e1);]Actions: [open-door-going-down($e0);, open-door-going-down($e1);]
+
+reward:-1.0
+reward:-1.0
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.8614858737134758%%%%%%%%%%%%state fitness =-1.2153703067134596
+
+tag：32;;tag：32;;8
+9
+Actions: [close-door($e1);, open-door-going-up($e0);]
+Actions: [close-door($e1);, open-door-going-up($e0);]reward:-1.0
+
+reward:-1.0
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.4678882418962571
+%%%%%%%%%%%%state fitness =-1.0328924715133818
+tag：33;;tag：33;;87
+
+Actions: [move-current-dir($e1);]Actions: [close-door($e0);, move-current-dir($e1);]
+
+reward:-0.75
+reward:-0.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.34940429403867507
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.33493931987657544
+tag：34;;tag：34;;8
+8
+Actions: [move-current-dir($e1);, open-door-going-up($e0);]
+reward:-0.75
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:-0.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.055500491872030114
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.082524529980478
+tag：35;;tag：35;;7
+7
+Actions: [move-current-dir($e1);, open-door-going-down($e0);]Actions: [close-door($e0);, open-door-going-up($e1);]
+
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+^^^^^^^^^^^^^^stare time200%%%%%%%%%%%%state fitness =-0.12141301398736126
+
+%%%%%%%%%%%%state fitness =-0.08214444325187524
+tag：36;;tag：36;;8
+8
+Actions: [close-door($e1);, open-door-going-up($e0);]
+reward:0.0
+Actions: [close-door($e1);, open-door-going-down($e0);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.10897077857467675
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.10483092181207135
+tag：37;;tag：37;;7
+8
+Actions: [close-door($e0);, move-current-dir($e1);]
+Actions: [close-door($e0);, move-current-dir($e1);]
+reward:0.0reward:0.0
+
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.013888888888888888
+%%%%%%%%%%%%state fitness =-0.0628698224852071
+tag：38;;tag：38;;8
+9
+Actions: [close-door($e0);, open-door-going-up($e1);]Actions: [move-current-dir($e0);, open-door-going-up($e1);]
+
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =0.0
+tag：39;;tag：39;;8
+8
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]reward:0.0
+
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =0.0
+tag：40;;tag：40;;7
+7
+Actions: [move-current-dir($e0);, open-door-going-up($e1);]
+Actions: [move-current-dir($e1);, open-door-going-down($e0);]reward:0.0
+
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.04180967369434566
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.07634292337921994
+tag：41;;tag：41;;8
+8
+Actions: [close-door($e1);, open-door-going-up($e0);]
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]reward:0.0
+
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.053673098276862646
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.12249688480642985
+tag：42;;tag：42;;8
+8
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+Actions: [close-door($e1);, open-door-going-up($e0);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.08025154360968503
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.08259978926911979
+tag：43;;tag：43;;8
+8
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]Actions: [close-door($e1);]
+
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.0501940930730223
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.0874512449981089
+tag：44;;tag：44;;76
+
+Actions: [close-door($e0);, open-door-going-down($e1);]Actions: [close-door($e0);, open-door-going-up($e1);]
+
+reward:-1.0reward:-1.0
+
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.7633416068186556
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-2.0772783022442316
+tag：45;;tag：45;;8
+8
+Actions: [close-door($e1);, move-current-dir($e0);]Actions: [move-current-dir($e0);, open-door-going-up($e1);]
+
+reward:-1.75
+reward:-1.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.2808424814280963
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.330715882658665
+tag：46;;tag：46;;8
+8
+Actions: [move-current-dir($e1);, open-door-going-down($e0);]
+reward:-1.75
+Actions: [close-door($e1);, move-current-dir($e0);]
+reward:-1.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.0008929376557498
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.0242381331368071
+tag：47;;tag：47;;8
+8
+Actions: [close-door($e0);, close-door($e1);]
+Actions: [close-door($e0);, open-door-going-up($e1);]
+reward:-1.0reward:-1.0
+
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.0301208249428202
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.9922044731436802
+tag：48;;tag：48;;77
+
+Actions: [move-current-dir($e0);, open-door-going-down($e1);]
+reward:-1.0
+Actions: [move-current-dir($e0);, move-current-dir($e1);]
+reward:-1.0
+^^^^^^^^^^^^^^stare time200
+^^^^^^^^^^^^^^stare time200%%%%%%%%%%%%state fitness =-1.0126569664519414
+
+%%%%%%%%%%%%state fitness =-1.0535195137865918
+tag：49;;tag：49;;9
+9
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]
+reward:-1.0
+reward:-1.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.2744758362122535
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.1472394343070782
+
+Exception: java.net.SocketException: Connection reset
+
+Exception: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:115)
+
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:115)
+
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297)	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at rddl.competition.Server.sendOneMessage(Server.java:734)
+
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)	at rddl.competition.SimClientSOG.Run(SimClientSOG.java:298)
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:520)
+
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at rddl.competition.Server.sendOneMessage(Server.java:734)
+	at rddl.competition.SimClientSOG.Run(SimClientSOG.java:298)
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:520)
+RDDL client initialized
+begin new session
+RDDL client initialized
+begin new session
+get instance name :elevators_inst_mdp__02
+get instance name :elevators_inst_mdp__02
+file name: elevators_inst_mdp__02.rddl
+/mnt/hgfs/fwp/baseline-code/SOGBOFA-master/run-data/31412
+file name: elevators_inst_mdp__02.rddl
+/mnt/hgfs/fwp/baseline-code/SOGBOFA-master/run-data/6539
+get instance name :elevators_inst_mdp__02get instance name :elevators_inst_mdp__02
+
+Finished RDD2Graph!
+
+*********************************************************
+>>> INITIAL POLICY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*********************************************************
+Finished RDD2Graph!
+
+*********************************************************
+>>> INITIAL POLICY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*********************************************************
+set seerch tree parameter:set seerch tree parameter:
+
+tag：0;;******************** FirstStep ********************tag：0;;
+******************** FirstStep ********************
+Rebuild constraints system!!!!
+Rebuild constraints system!!!!
+40
+40
+Actions: [open-door-going-up($e0);]
+Actions: [open-door-going-up($e0);]
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.01663005598937784
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.04137479377413009
+tag：1;;tag：1;;6
+6
+Actions: [move-current-dir($e1);, open-door-going-down($e0);]
+reward:0.0
+Actions: [move-current-dir($e1);, open-door-going-down($e0);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.055998078207538424
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.04363667143808846
+tag：2;;tag：2;;8
+8
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]Actions: [close-door($e0);, open-door-going-up($e1);]
+
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.0410146086842801^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.08164483389176658
+tag：3;;tag：3;;7
+5
+Actions: [move-current-dir($e0);, open-door-going-up($e1);]
+reward:0.0
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.08328082502576978
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.045605964683285066
+tag：4;;tag：4;;6
+8
+Actions: [move-current-dir($e0);, open-door-going-up($e1);]
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]reward:0.0
+
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.10312329027148814
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.06285818065463214
+tag：5;;tag：5;;7
+8
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+Actions: [open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.07595828451386079
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.079450895610344
+tag：6;;tag：6;;5
+8
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.0780614255415871
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.03743818675758817
+tag：7;;tag：7;;88
+
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]reward:0.0
+
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+^^^^^^^^^^^^^^stare time200%%%%%%%%%%%%state fitness =-0.08062291755999888
+
+%%%%%%%%%%%%state fitness =-0.08567839328769891
+tag：8;;tag：8;;8
+7
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]
+reward:0.0
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.0446521547564793
+%%%%%%%%%%%%state fitness =-0.08141687515016216
+tag：9;;tag：9;;9
+7
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+Actions: [close-door($e0);, open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.09305227107617126
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.05376045728882092
+tag：10;;tag：10;;7
+8
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.006959778682953
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.09207490517505205
+tag：11;;tag：11;;7
+7
+Actions: [open-door-going-up($e0);, open-door-going-down($e1);]
+reward:-1.0
+Actions: [close-door($e0);, open-door-going-down($e1);]
+reward:-1.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.1181947183461374
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.2877321947808165
+tag：12;;tag：12;;8
+7
+Actions: [close-door($e1);, open-door-going-down($e0);]
+Actions: [close-door($e1);, open-door-going-down($e0);]reward:-1.0
+
+reward:-1.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-2.0498951107724874
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.9959284912025527
+tag：13;;tag：13;;8
+9
+Actions: [move-current-dir($e1);, open-door-going-up($e0);]
+reward:-1.75
+Actions: [move-current-dir($e1);, open-door-going-up($e0);]
+reward:-1.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.2719710819037302
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.1825742864730202
+tag：14;;tag：14;;8
+8
+Actions: [close-door($e0);, move-current-dir($e1);]
+Actions: [close-door($e0);, open-door-going-up($e1);]reward:-1.75
+
+reward:-1.75
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.9410062333431538%%%%%%%%%%%%state fitness =-0.9924572625758926
+
+tag：15;;tag：15;;8
+8
+Actions: [move-current-dir($e0);, open-door-going-up($e1);]
+reward:-1.0
+Actions: [move-current-dir($e0);, open-door-going-down($e1);]
+reward:-1.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.4409288389265482
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.941856174105426
+tag：16;;tag：16;;8
+8
+Actions: [close-door($e1);, open-door-going-up($e0);]Actions: [close-door($e1);, open-door-going-up($e0);]
+
+reward:-2.0reward:-2.0
+
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-2.662420119242991
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.7871473189989162
+tag：17;;tag：17;;88
+
+Actions: [move-current-dir($e1);, open-door-going-up($e0);]
+reward:-2.0
+Actions: [close-door($e1);, open-door-going-up($e0);]
+reward:-2.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.810361948568195
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-2.522404768457128
+tag：18;;tag：18;;8
+8
+Actions: [open-door-going-up($e0);, open-door-going-down($e1);]
+Actions: [close-door($e0);]reward:-1.75
+
+reward:-1.75
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-1.256559273440495%%%%%%%%%%%%state fitness =-0.4436578774987701
+
+tag：19;;tag：19;;8
+8
+Actions: [close-door($e0);, close-door($e1);]
+reward:-1.75
+Actions: [close-door($e0);, close-door($e1);]
+reward:-1.75
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-2.8333559537651425%%%%%%%%%%%%state fitness =-1.0674109158859406
+
+tag：20;;tag：20;;8
+8
+Actions: [move-current-dir($e0);, move-current-dir($e1);]Actions: [move-current-dir($e0);, move-current-dir($e1);]
+
+reward:-1.5reward:-1.5
+
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.5679349478198291
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.5242479463896705
+tag：21;;tag：21;;8
+8
+Actions: [open-door-going-down($e0);, open-door-going-down($e1);]Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+
+reward:-1.5reward:-1.5
+
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.10834885361690616^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.08821028382953205
+tag：22;;tag：22;;9
+9
+Actions: [close-door($e1);, open-door-going-down($e0);]
+Actions: [close-door($e1);, open-door-going-down($e0);]reward:0.0
+
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.01079760974392599
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.012586138339077145
+tag：23;;tag：23;;8
+8
+Actions: [close-door($e0);, move-current-dir($e1);]
+reward:0.0
+Actions: [move-current-dir($e1);, open-door-going-up($e0);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+^^^^^^^^^^^^^^stare time200%%%%%%%%%%%%state fitness =-0.0034498964941997775
+
+%%%%%%%%%%%%state fitness =-0.034753654075069446
+tag：24;;tag：24;;7
+8
+Actions: [move-current-dir($e0);, open-door-going-up($e1);]Actions: [move-current-dir($e0);, open-door-going-up($e1);]
+
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.15126661064590216
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.09353373233813447
+tag：25;;tag：25;;8
+8
+Actions: [open-door-going-down($e0);]
+Actions: [open-door-going-down($e0);]
+reward:0.0reward:0.0
+
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.011190847037368149
+%%%%%%%%%%%%state fitness =-0.821539553640805
+tag：26;;tag：26;;8
+8
+Actions: [open-door-going-up($e1);]
+reward:0.0
+Actions: [open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.8946135409885866
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.0439395796596502
+tag：27;;tag：27;;6
+8
+Actions: [close-door($e1);]Actions: [close-door($e1);, open-door-going-up($e0);]
+
+reward:-1.0reward:-1.0
+
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.5603769841938085
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.0734684407373134
+tag：28;;tag：28;;9
+8
+Actions: [move-current-dir($e1);]Actions: [move-current-dir($e1);]
+
+reward:-0.75
+reward:-0.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.6108851042849008^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-1.4864655652039367
+tag：29;;tag：29;;8
+8
+Actions: [close-door($e0);, open-door-going-down($e1);]
+Actions: [close-door($e0);, close-door($e1);]
+reward:-1.75reward:-1.75
+
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-1.0267640756589402
+%%%%%%%%%%%%state fitness =-1.0402375616983257
+tag：30;;tag：30;;8
+8
+Actions: [move-current-dir($e0);, open-door-going-up($e1);]
+Actions: [move-current-dir($e0);, open-door-going-up($e1);]reward:-0.75
+
+reward:-0.75
+^^^^^^^^^^^^^^stare time200
+^^^^^^^^^^^^^^stare time200%%%%%%%%%%%%state fitness =-0.26052438033230807
+
+%%%%%%%%%%%%state fitness =-0.12528496677576154
+tag：31;;tag：31;;8
+8
+Actions: [move-current-dir($e0);, open-door-going-down($e1);]Actions: [open-door-going-up($e0);, open-door-going-down($e1);]
+
+reward:-0.75
+reward:-0.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.05194271337038307
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.04400115317343389
+tag：32;;tag：32;;8
+8
+Actions: [close-door($e1);, move-current-dir($e0);]
+reward:0.0Actions: [close-door($e1);, move-current-dir($e0);]
+
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.23203063674726054
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.08341991339223265
+tag：33;;tag：33;;88
+
+Actions: [close-door($e0);, move-current-dir($e1);]Actions: [close-door($e0);, close-door($e1);]
+
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.04795851797404077
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.10885838933099191
+tag：34;;tag：34;;8
+8
+Actions: [move-current-dir($e0);, open-door-going-down($e1);]
+reward:0.0
+Actions: [move-current-dir($e0);, open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+^^^^^^^^^^^^^^stare time200%%%%%%%%%%%%state fitness =-0.12070918221689696
+
+%%%%%%%%%%%%state fitness =-0.050249568023796286
+tag：35;;tag：35;;8
+8
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]Actions: [close-door($e0);, open-door-going-up($e1);]
+
+reward:0.0reward:0.0
+
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.03058124446907986
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.07285895827480092
+tag：36;;tag：36;;7
+8
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]Actions: [close-door($e0);, open-door-going-up($e1);]
+
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+^^^^^^^^^^^^^^stare time200%%%%%%%%%%%%state fitness =-0.06460933290056405
+
+%%%%%%%%%%%%state fitness =-0.08871619360004504
+tag：37;;tag：37;;9
+8
+Actions: [move-current-dir($e0);, open-door-going-up($e1);]Actions: [move-current-dir($e0);, open-door-going-up($e1);]
+
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.05968299717714836%%%%%%%%%%%%state fitness =-0.03591639805628383
+
+tag：38;;tag：38;;8
+8
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]Actions: [move-current-dir($e0);, open-door-going-up($e1);]
+
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =0.0%%%%%%%%%%%%state fitness =0.0
+
+tag：39;;tag：39;;8
+8
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+Actions: [close-door($e0);, open-door-going-up($e1);]reward:0.0
+
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =0.0
+%%%%%%%%%%%%state fitness =0.0
+tag：40;;tag：40;;8
+8
+Actions: [move-current-dir($e1);, open-door-going-down($e0);]Actions: [move-current-dir($e1);, open-door-going-up($e0);]
+
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.07031578699426182^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.10336217257010842
+tag：41;;tag：41;;8
+8
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]reward:0.0
+
+reward:0.0
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.07688759599623136%%%%%%%%%%%%state fitness =-0.06474615182226906
+
+tag：42;;tag：42;;8
+8
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]Actions: [close-door($e0);]
+
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.05392211097376548
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.07370017757481981
+tag：43;;tag：43;;8
+8
+Actions: [move-current-dir($e0);, open-door-going-up($e1);]Actions: [close-door($e0);, open-door-going-up($e1);]
+
+reward:0.0reward:0.0
+
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.05396867174248955
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.05545879651350036
+tag：44;;tag：44;;8
+8
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]Actions: [move-current-dir($e0);]
+
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.05396697505047117
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.06004144478897991
+tag：45;;tag：45;;8
+8
+Actions: [close-door($e0);, open-door-going-up($e1);]
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]reward:0.0
+
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.08234564489696371
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.06347386910760759
+tag：46;;tag：46;;8
+8
+Actions: [close-door($e0);, open-door-going-up($e1);]
+reward:0.0
+Actions: [close-door($e0);, open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.1973462108530448
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.06856858452665794
+tag：47;;tag：47;;8
+8
+Actions: [close-door($e0);, close-door($e1);]
+Actions: [close-door($e1);, move-current-dir($e0);]reward:-1.0
+
+reward:-1.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.382045817284078
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.8914682236801207
+tag：48;;tag：48;;8
+7
+Actions: [close-door($e0);, move-current-dir($e1);]Actions: [close-door($e0);, move-current-dir($e1);]
+
+reward:-0.75reward:-0.75
+
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.0555738651209153
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.27379280028072644
+tag：49;;tag：49;;9
+8
+Actions: [close-door($e1);, move-current-dir($e0);]
+reward:-0.75
+Actions: [open-door-going-down($e0);, open-door-going-down($e1);]
+reward:-0.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.05485651906382832
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.0848882960897587
+tag：50;;tag：50;;8
+8
+Actions: [open-door-going-up($e0);, open-door-going-down($e1);]Actions: [close-door($e1);, open-door-going-up($e0);]
+
+reward:0.0reward:0.0
+
+^^^^^^^^^^^^^^stare time200^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-0.06018243061335092
+%%%%%%%%%%%%state fitness =-0.06501905479304332
+tag：51;;tag：51;;8
+9
+Actions: [close-door($e0);, close-door($e1);]
+Actions: [close-door($e0);, move-current-dir($e1);]reward:0.0
+
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.08556577995331628
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.058519354561405
+tag：52;;tag：52;;8
+8
+Actions: [move-current-dir($e0);, move-current-dir($e1);]
+reward:0.0Actions: [move-current-dir($e0);, open-door-going-down($e1);]
+
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.09546106013743141
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.037548398181568444
+tag：53;;tag：53;;88
+
+Actions: [move-current-dir($e1);, open-door-going-up($e0);]Actions: [move-current-dir($e1);, open-door-going-up($e0);]
+
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.09056790418146816
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.08271613492205807
+tag：54;;tag：54;;8
+8
+Actions: [move-current-dir($e1);]
+reward:0.0
+Actions: [open-door-going-up($e0);, open-door-going-down($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.09130213115982237
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.06750254197920323
+tag：55;;tag：55;;8
+8
+Actions: [move-current-dir($e1);, open-door-going-up($e0);]Actions: [close-door($e1);, open-door-going-up($e0);]
+
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.09030877914268384
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.0854912179544443
+tag：56;;tag：56;;8
+8
+Actions: [move-current-dir($e1);, open-door-going-up($e0);]
+reward:0.0
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.334786385891609
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.07076241707039294
+tag：57;;tag：57;;8
+8
+Actions: [close-door($e0);, move-current-dir($e1);]Actions: [close-door($e0);, close-door($e1);]
+
+reward:-1.0
+reward:-1.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.297811991989918
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.4462420446151654
+tag：58;;tag：58;;88
+
+Actions: [open-door-going-up($e0);, open-door-going-down($e1);]
+reward:-1.75Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+
+reward:-1.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.506803771128126^^^^^^^^^^^^^^stare time200
+
+%%%%%%%%%%%%state fitness =-1.6028751213455827
+tag：59;;tag：59;;8
+8
+Actions: [close-door($e0);, close-door($e1);]Actions: [close-door($e0);, open-door-going-up($e1);]
+
+reward:-1.75
+reward:-1.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-1.1046314651646811
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.9960952679948937
+tag：60;;tag：60;;8
+8
+Actions: [close-door($e1);, move-current-dir($e0);]
+reward:-0.75
+Actions: [move-current-dir($e0);, move-current-dir($e1);]
+reward:-0.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.21454234036124134
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.09389115023631982
+tag：61;;tag：61;;8
+8
+Actions: [close-door($e1);, open-door-going-up($e0);]Actions: [move-current-dir($e1);, open-door-going-up($e0);]
+
+reward:-0.75
+reward:-0.75
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.1694962719117653
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.1138639979570137
+tag：62;;tag：62;;8
+8
+Actions: [close-door($e0);, move-current-dir($e1);]
+reward:0.0
+Actions: [move-current-dir($e1);, open-door-going-down($e0);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.05574051543434988
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.05875277401603025
+tag：63;;tag：63;;8
+8
+Actions: [open-door-going-up($e0);, open-door-going-down($e1);]
+reward:0.0
+Actions: [open-door-going-down($e0);, open-door-going-down($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.11252362682859268
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.05628808771343437
+tag：64;;tag：64;;8
+8
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+Actions: [close-door($e0);, open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.02140422242706259
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.06954065654906895
+tag：65;;tag：65;;88
+
+Actions: [open-door-going-up($e1);, open-door-going-down($e0);]Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.05052137749828289
+%%%%%%%%%%%%state fitness =-0.026800041853370742
+tag：66;;tag：66;;8
+8
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.03236049779190556
+^^^^^^^^^^^^^^stare time200
+%%%%%%%%%%%%state fitness =-0.022509355046790636
+tag：67;;tag：67;;8
+8
+Actions: [close-door($e0);]
+Actions: [open-door-going-up($e0);, open-door-going-up($e1);]
+reward:0.0
+reward:0.0
+^^^^^^^^^^^^^^stare time200
+^^^^^^^^^^^^^^stare time200%%%%%%%%%%%%state fitness =-0.07214831972198787
+
+%%%%%%%%%%%%state fitness =-0.022602443069480085
+
+Exception: java.net.SocketException: Connection reset
+
+Exception: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:115)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:115)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at rddl.competition.Server.sendOneMessage(Server.java:734)
+	at rddl.competition.SimClientSOG.Run(SimClientSOG.java:298)
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:520)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at rddl.competition.Server.sendOneMessage(Server.java:734)
+	at rddl.competition.SimClientSOG.Run(SimClientSOG.java:298)
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:520)
+Exception: java.lang.NullPointerExceptionException: java.lang.NullPointerException
+
+java.lang.NullPointerException
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:524)
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:524)
+
+Exception: java.lang.NullPointerException
+Exception: java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException	at rddl.competition.SimClientSOG.main(SimClientSOG.java:524)
+
+	at rddl.competition.SimClientSOG.main(SimClientSOG.java:524)

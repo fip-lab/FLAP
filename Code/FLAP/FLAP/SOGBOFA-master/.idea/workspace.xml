@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7678cbff-3902-414b-ba56-bb5863e1c81a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1s70camk5v8xMnWQJXp6M7lEEyY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Application.SimClientSOG">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rddl.competition.Client" />
+      <module name="sogbofa-master" />
+      <option name="PROGRAM_PARAMETERS" value="files\Domains localhost originclient2 rddl.policy.RandomConcurrentPolicy 2323 123456 manufacturer_inst_mdp__01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rddl.competition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientSOGBOFA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rddl.competition.ClientSOGBOFA" />
+      <module name="sogbofa-master" />
+      <option name="PROGRAM_PARAMETERS" value="SOGBOFA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rddl.competition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SOGBOFA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rddl.competition.SOGBOFA" />
+      <module name="sogbofa-master" />
+      <option name="PROGRAM_PARAMETERS" value="files\ipc2018-domains\manufacturer localhost clientname2 rddl.policy.SOGBOFA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rddl.competition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rddl.competition.Server" />
+      <module name="sogbofa-master" />
+      <option name="PROGRAM_PARAMETERS" value="Domains 2326 10 1 10000 500" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rddl.competition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimClientSOG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rddl.competition.SimClientSOG" />
+      <module name="sogbofa-master" />
+      <option name="PROGRAM_PARAMETERS" value="2323 localhost 6754" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rddl.competition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ClientSOGBOFA" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.SOGBOFA" />
+      <item itemvalue="Application.SimClientSOG" />
+      <item itemvalue="Application.Client" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SimClientSOG" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.ClientSOGBOFA" />
+        <item itemvalue="Application.SOGBOFA" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7678cbff-3902-414b-ba56-bb5863e1c81a" name="Default Changelist" comment="" />
+      <created>1620208400636</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620208400636</updated>
+      <workItem from="1620208401789" duration="5056000" />
+      <workItem from="1623467352579" duration="525000" />
+      <workItem from="1625621697784" duration="1244000" />
+      <workItem from="1625921492818" duration="52000" />
+      <workItem from="1625922161629" duration="3914000" />
+      <workItem from="1627971858765" duration="88000" />
+      <workItem from="1627981407750" duration="1826000" />
+      <workItem from="1628044036950" duration="1139000" />
+      <workItem from="1628066291638" duration="595000" />
+      <workItem from="1629125602359" duration="606000" />
+      <workItem from="1629213687151" duration="1121000" />
+      <workItem from="1629216232155" duration="194000" />
+      <workItem from="1629296913728" duration="939000" />
+      <workItem from="1629825700217" duration="428000" />
+      <workItem from="1629879594307" duration="1968000" />
+      <workItem from="1629893082040" duration="2085000" />
+      <workItem from="1629906463834" duration="360000" />
+      <workItem from="1629960314097" duration="623000" />
+      <workItem from="1630426315423" duration="54000" />
+      <workItem from="1630500118816" duration="626000" />
+      <workItem from="1630500984022" duration="856000" />
+      <workItem from="1630675874197" duration="3120000" />
+      <workItem from="1630749221642" duration="1394000" />
+      <workItem from="1630949045300" duration="472000" />
+      <workItem from="1631111521502" duration="40000" />
+      <workItem from="1631182075377" duration="232000" />
+      <workItem from="1632811472240" duration="549000" />
+      <workItem from="1632815642454" duration="3587000" />
+      <workItem from="1633274950497" duration="1107000" />
+      <workItem from="1633282265235" duration="629000" />
+      <workItem from="1633878183478" duration="2387000" />
+      <workItem from="1634062129399" duration="805000" />
+      <workItem from="1634202908183" duration="38000" />
+      <workItem from="1634202954203" duration="168000" />
+      <workItem from="1634276588710" duration="3643000" />
+      <workItem from="1635779583990" duration="15000" />
+      <workItem from="1637478931715" duration="1233000" />
+      <workItem from="1637844982275" duration="1213000" />
+      <workItem from="1639065633122" duration="3552000" />
+      <workItem from="1639069530743" duration="1105000" />
+      <workItem from="1639071229041" duration="98000" />
+      <workItem from="1639144642064" duration="1335000" />
+      <workItem from="1639295489167" duration="43000" />
+      <workItem from="1639296804625" duration="156000" />
+      <workItem from="1642043739759" duration="2803000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="242" y="134" width="1089" height="702" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642045287903">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="242" y="134" width="1089" height="702" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1642045287903" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1642043826317">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1642043826317" />
+    <state width="1493" height="233" key="GridCell.Tab.0.bottom" timestamp="1642045412702">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="233" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1642045412702" />
+    <state width="1493" height="233" key="GridCell.Tab.0.center" timestamp="1642045412702">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="233" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1642045412702" />
+    <state width="1493" height="233" key="GridCell.Tab.0.left" timestamp="1642045412701">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="233" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1642045412701" />
+    <state width="1493" height="233" key="GridCell.Tab.0.right" timestamp="1642045412702">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="233" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1642045412702" />
+    <state x="270" y="14" key="SettingsEditor" timestamp="1642043827622">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="270" y="14" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1642043827622" />
+    <state x="686" y="270" width="600" height="594" key="find.popup" timestamp="1642044967866">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="686" y="270" width="600" height="594" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1642044967866" />
+  </component>
+</project>

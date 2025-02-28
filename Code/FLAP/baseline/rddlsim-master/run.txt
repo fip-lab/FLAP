@@ -1,0 +1,12 @@
+domain-name		脚本执行的领域名称
+result.csv			运行结果
+run-base-2011/14.sh	运行脚本
+
+
+./run rddl.competition.Server files/comp-2011
+./tun-base-2011.sh
+
+./run rddl.competition.Server files/comp-2014
+./tun-base-2014.sh
+
+#运行产生.csv文件保存在rddlsim工作目录；

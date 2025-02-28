@@ -1,0 +1,7 @@
+server：
+	./run rddl.competition.ServerMAX files/2018-rddlsim-dom 50 1800 1 files\sogDomains files\prostDomains 6
+client：
+	./run rddl.competition.Client files\2018-rddlsim-dom localhost originclient2 rddl.policy.RandomConcurrentPolicy 2323 123456 manufacturer_inst_mdp__10
+
+也可以使用脚本运行client
+runbaseline.bat

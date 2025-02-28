@@ -1,0 +1,15 @@
+Please cite our paper:
+
+@article{RAO2025112808,
+title = {FLAP: Fireworks algorithm based probabilistic planning},
+journal = {Applied Soft Computing},
+volume = {171},
+pages = {112808},
+year = {2025},
+issn = {1568-4946},
+doi = {https://doi.org/10.1016/j.asoc.2025.112808},
+url = {https://www.sciencedirect.com/science/article/pii/S156849462500119X},
+author = {Dongning Rao and Shanzhen Yi and Zhihua Jiang},
+keywords = {Probabilistic planning, Relational dynamic-influence diagram language, Evolutionary computing, Fireworks algorithm},
+abstract = {Probabilistic planning based on the relational dynamic influence diagram language focuses on actions’ concurrent and probabilistic effects that lead to an enormous search space. While the complexity of this problem makes it challenging for existing probabilistic planners to solve all outcomes deterministically within the time budget, parallel computing aims to tackle complex issues within a fixed time limit by facilitating more resources. Thus, motivated by evolutionary computing, we propose a novel planning approach, FLAP(Fireworks aLgorithm based probAbilistic Planning), to improve the quality and the stability of probabilistic planning for the first time. FLAPschedules multiple planner clients and adapts the fireworks algorithm in which future states can be generated via simulating fireworks explosion, evaluated by the reward-aware fitness, and then assigned to different planners for the environment evolution. The search strategy of FLAPis a look-ahead enhanced anytime Monte Carlo Tree Search, where a tree structure is composed representing plan traces and a fitness function that captures traces’ rewards is used to guide the growth of the tree. FLAPis implemented and evaluated on multiple competition domains and gains plan executions with higher rewards than the state-of-the-art planner. By sharing information among planners, not only the best execution of plans but also the small variance of all generated plans show the superiority of our approach.11As an application of the firework algorithm that enhances probabilistic planning, the source code of FLAPwill be shared on GitHub after publication.}
+}
